@@ -7,8 +7,8 @@ using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 
 const int year = 2023;
-const int day = 1;  // Also change day number in Run line below
-var runPuzzleDelegate = new RunPuzzleDelegate(Day01.Run);
+const int day = 2;  // Also change day number in Run line below
+var runPuzzleDelegate = new RunPuzzleDelegate(Day02.Run);
 
 
 Console.WriteLine($"Advent of code, day {day}");
