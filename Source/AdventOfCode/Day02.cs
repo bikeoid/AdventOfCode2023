@@ -13,10 +13,6 @@ namespace AdventOfCode
     {
         private readonly string _puzzleFilename;
 
-        const string Digits = "0123456789";
-        static readonly SearchValues<char> SearchDigits = SearchValues.Create(Digits);
-        static readonly string[] NumericWords = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-
         int rLim = 12; int gLim = 13; int bLim = 14;
 
         public Day02(String puzzleFilename)
